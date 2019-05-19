@@ -36,7 +36,7 @@
             </a>
         </div>
         Well, I'm very passionate developer, <br>
-        i have been always eager to learn about this field, i have a debugger mindset. <br>
+        i have been always eager to learn about Computer Science, i have a debugger mindset. <br>
         I'm a Outako (Anime Lover) XD<br>
         Love Classic, Jazz and country music.<br>
     </p>
