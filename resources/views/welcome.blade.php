@@ -4,7 +4,7 @@
 <div class="text-lg text-grey-darkest leading-normal spaced-y-6">
     <p>
         <div class="text-grey-darkest text-base leading-normal mt-2">
-            <a href="http://facebook.com/muhammad.0rabi" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
+            <a href="https://facebook.com/muhammad.0rabi" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
                 <span style="font-size: 2em">
                     <i class="fab fa-facebook"></i>
                 </span>
@@ -19,7 +19,7 @@
                     <i class="fab fa-linkedin-in"></i>
                 </span>
             </a>
-            <a href="http://github.com/MuhammadOrabi/" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
+            <a href="https://github.com/MuhammadOrabi/" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
                 <span  style="font-size: 2em">
                     <i class="fab fa-github"></i>
                 </span>
