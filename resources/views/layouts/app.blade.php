@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link href="css/app.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://adamwathan.me/assets/build/css/site.css?id=3874c5caa8313c2c63c0">
+        <link rel="stylesheet" href="/css/site.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/atom-one-dark.min.css">
 
     </head>
