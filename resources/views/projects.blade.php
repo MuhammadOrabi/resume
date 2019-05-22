@@ -69,7 +69,7 @@
                 </li>
                 <br>
                 <li>
-                    RPC version using RabbitMQ (under development)
+                    Messaging over Message Broker using RabbitMQ (under development)
                     <div class="text-grey-darkest text-base leading-normal mt-2">
                         [<a href="https://gitlab.com/digital-assistant/app" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Gitlab Repo</a>]
                     </div>
