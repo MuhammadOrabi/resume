@@ -24,6 +24,11 @@
                     <i class="fab fa-github"></i>
                 </span>
             </a>
+            <a href="https://join.skype.com/invite/bDipTKqZlT7J" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
+                <span  style="font-size: 2em">
+                    <i class="fab fa-skype"></i>
+                </span>
+            </a>
             <a href="tel:+201021473271" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
                 <span  style="font-size: 2em">
                     <i class="fas fa-mobile"></i>
