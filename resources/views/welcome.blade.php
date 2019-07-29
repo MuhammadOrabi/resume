@@ -42,7 +42,7 @@
         </div>
         Well, I'm very passionate developer, <br>
         i have been always eager to learn about Computer Science, i have a debugger mindset. <br>
-        I'm a Outako (Anime Lover) XD<br>
+        I'm a Outako XD<br>
         Love Classic, Jazz and country music.<br>
     </p>
 </div>
