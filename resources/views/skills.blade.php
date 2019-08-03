@@ -1,5 +1,10 @@
 @extends('layouts.app')
-
+@section('meta-desc')
+    Skills
+@endsection
+@section('title')
+    Skills,
+@endsection
 @section('content')
 <div class="max-w-md">
     <h1 class="text-2xl font-extrabold text-black mb-4">Skills</h1>

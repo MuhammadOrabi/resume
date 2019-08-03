@@ -1,5 +1,10 @@
 @extends('layouts.app')
-
+@section('meta-desc')
+    Education
+@endsection
+@section('title')
+    Education,
+@endsection
 @section('content')
 <div class="max-w-md">
     <h1 class="text-2xl font-extrabold text-black mb-4">Education</h1>
