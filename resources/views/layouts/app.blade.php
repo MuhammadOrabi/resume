@@ -21,7 +21,7 @@
                 <div class="flex md:block lg:flex items-center max-w-full">
                     <div class="mb-0 md:mb-4 lg:mb-0 flex flex-no-shrink pr-4 md:pr-6 lg:pr-12">
                         <a href="/" class="flex items-center no-underline">
-                            <img class="h-10 w-10 md:h-12 md:w-12 lg:h-20 lg:w-20 rounded-full" src="https://avatars2.githubusercontent.com/u/19597717?s=460&v=4" alt="">
+                            <img class="h-10 w-10 md:h-12 md:w-12 lg:h-20 lg:w-20 rounded-full" src="https://avatars2.githubusercontent.com/u/19597717?s=460&v=4" alt="Muhammad Orabi">
                         </a>
                     </div>
                     <div>
@@ -70,6 +70,15 @@
                 }
                 }
             })
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145575063-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145575063-1');
         </script>
     </body>
 </html>
