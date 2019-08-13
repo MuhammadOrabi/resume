@@ -40,7 +40,8 @@
                 </span>
             </a>
         </div>
-        Well, I'm very passionate developer, <br>
+        <h1 class="text-2xl font-extrabold text-black mb-4">Who the hell am I?</h1>
+        I'm a very passionate developer, <br>
         i have been always eager to learn about Computer Science, i have a debugger mindset. <br>
         Outako Forever XD<br>
         Love Classic, Jazz and country music.<br>
