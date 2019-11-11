@@ -14,7 +14,8 @@
 Route::get('/', 'FrontController@home');
 Route::get('/employment', 'FrontController@employment');
 Route::get('/education', 'FrontController@education');
-Route::get('/projects', 'FrontController@projects');
 Route::get('/skills', 'FrontController@skills');
+Route::get('/projects', 'FrontController@projects');
+Route::get('/playground', 'FrontController@playground');
 
 

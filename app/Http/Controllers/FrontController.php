@@ -21,13 +21,18 @@ class FrontController extends Controller
         return view('employment');
     }
 
+    public function skills()
+    {
+        return view('skills');
+    }
+
     public function projects()
     {
         return view('projects');
     }
 
-    public function skills()
+    public function playground()
     {
-        return view('skills');
+        return view('playground');
     }
 }
