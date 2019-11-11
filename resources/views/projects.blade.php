@@ -75,8 +75,7 @@
                 <li>
                     Bootstrap V4, Express.js, MongoDB, React.js
                     <div class="text-grey-darkest text-base leading-normal mt-2">
-                        [<a href="https://github.com/MuhammadOrabi/voting-app-react" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a> |
-                        <a href="http://vote.react.orabi.me/" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Live</a>]
+                        [<a href="https://github.com/MuhammadOrabi/voting-app-react" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo (legacy code)</a>
                     </div>
                 </li>
             </ul>
