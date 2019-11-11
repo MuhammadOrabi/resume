@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('meta-desc')
-    Projects
+    Playground
 @endsection
 @section('title')
-    Projects,
+    Playground,
 @endsection
 @section('content')
 <div class="max-w-md">
