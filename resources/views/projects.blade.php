@@ -6,9 +6,9 @@
     Projects,
 @endsection
 @section('content')
-<div class="max-w-md">
+{{-- <div class="max-w-md">
     <h1 class="text-2xl font-extrabold text-black mb-4">Projects</h1>
-</div>
+</div> --}}
 <div class="mt-12 spaced-y-10">
     <div>
         <p class="text-lg text-black font-bold no-underline">
