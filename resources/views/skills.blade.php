@@ -28,7 +28,7 @@
         <p class="text-grey-darkest text-base leading-normal mt-1">
             <ul>
                 <li>GNU/Linux (Current OS), Bash Shell Scripting, Version control system (Git)</li>
-                <li>Docker, CI/CD tools, RabbitMQ, gRPC</li>
+                <li>Docker, CI/CD tools, Elasticsearch, RabbitMQ, gRPC</li>
             </ul>
         </p>
     </div>
