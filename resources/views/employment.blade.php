@@ -17,14 +17,32 @@
         <p class="text-grey-darkest text-base leading-normal mt-1">
             <ul>
                 <li>
-                    Working on a chat bot platform that helps organizations to create intelligent
-                    chat bot, that integrate with messenger, whatsapp and genesys.
                     <div class="text-grey-darkest text-base leading-normal mt-2">
                         <a href="https://botter.live" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Botter</a>
                     </div>
+                    Is a chat bot platform that help with createing intelligent chat bots that supports lots of AI platforms like LUIS, WIT <br>
+                    Can be integrated with Messenger, WhatsApp, Twitter and Genesys products. <br>
+                    <small>built in a microservice structure using GO && NodeJS</small>
                 </li>
                 <br>
-                <li>Building APIs for mobile applications.</li>
+                <li>
+                    CPA
+                    <p>
+                        Is a fully automated and highly optimized CPA. <br>
+                        It takes in transactions, categorization, and context from previous years to automate your books & taxes moving forward. <br>
+                        <small>built in a microservice structure, and we used gRPC mainly</small>
+                    </p>
+                </li>
+                <br>
+                <li>
+                    Building APIs for mobile applications && web platforms.
+                    (i.e)
+                    <ul>
+                        <li>Feed</li>
+                        <li>Toyota</li>
+                        <li>Loreal (medical)</li>
+                    </ul>
+                </li>
             </ul>
         </p>
     </div>

@@ -18,7 +18,7 @@
             <ul>
                 <li>PHP, MySql, JavaScript, Laravel, Vue.js</li>
                 <li>Node.js, Express.js, MongoDB, React.js</li>
-                <li>Go, goagen, PostgreSQL</li>
+                <li>Go, PostgreSQL</li>
                 <li>Bootstrap, Bulma, Material Design, CSS, Sass</li>
                 <li>Unit testing, Browser Testing</li>
             </ul>
@@ -31,7 +31,7 @@
         <p class="text-grey-darkest text-base leading-normal mt-1">
             <ul>
                 <li>GNU/Linux (Current OS), Bash Shell Scripting, Version control system (Git)</li>
-                <li>Docker (current dev environment), Continuous Integration (Gitlab CI, Bitbucket CI), RabbitMQ</li>
+                <li>Docker, CI/CD tools, RabbitMQ, gRPC</li>
             </ul>
         </p>
     </div>
