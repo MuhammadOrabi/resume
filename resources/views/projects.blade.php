@@ -6,36 +6,7 @@
     Projects,
 @endsection
 @section('content')
-{{-- <div class="max-w-md">
-    <h1 class="text-2xl font-extrabold text-black mb-4">Projects</h1>
-</div> --}}
 <div class="mt-12 spaced-y-10">
-    <div>
-        <p class="text-lg text-black font-bold no-underline">
-            Digital Assistant
-        </p>
-        <p class="text-grey-darkest text-base leading-normal mt-1">
-            simple Appointment web application between doctors and patients using nodejs, python and
-            golang for the back-end. Patient can view all the available time slots of a doctor so he would be able to make
-            an appointment.
-            <ul>
-                <li>
-                    REST
-                    <div class="text-grey-darkest text-base leading-normal mt-2">
-                        [<a href="https://github.com/MuhammadOrabi/assessment-task" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a>]
-                    </div>
-                </li>
-                <br>
-                <li>
-                    Messaging over Message Broker using RabbitMQ (under development)
-                    <div class="text-grey-darkest text-base leading-normal mt-2">
-                        [<a href="https://gitlab.com/digital-assistant/app" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Gitlab Repo</a>]
-                    </div>
-                </li>
-            </ul>
-        </p>
-    </div>
-
     <div>
         <p class="text-lg text-black font-bold no-underline">
             Create Website
