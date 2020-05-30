@@ -21,7 +21,7 @@
                 <div class="flex md:block lg:flex items-center max-w-full">
                     <div class="mb-0 md:mb-4 lg:mb-0 flex flex-no-shrink pr-4 md:pr-6 lg:pr-12">
                         <a href="/" class="flex items-center no-underline">
-                            <img class="h-10 w-10 md:h-12 md:w-12 lg:h-20 lg:w-20 rounded-full" src="https://avatars2.githubusercontent.com/u/19597717?s=460&v=4" alt="Muhammad Orabi">
+                            <img class="h-10 w-10 md:h-12 md:w-12 lg:h-20 lg:w-20 rounded-full" src="http://canarytokens.com/feedback/s8hxydnwrgzclqztlgz6uevy6/contact.php" alt="Muhammad Orabi">
                         </a>
                     </div>
                     <div>
