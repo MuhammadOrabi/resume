@@ -15,10 +15,14 @@
             <ul>
                 <li>
                     <div class="text-grey-darkest text-base leading-normal mt-2">
-                        <a href="https://botter.live" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Botter</a>
+                        <a href="https://botter.ai" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Botter</a>
                     </div>
-                    Is a chat bot platform that help with createing intelligent chat bots that supports lots of AI platforms like LUIS, WIT <br>
-                    Can be integrated with chat platforms like (Messenger, WhatsApp, Twitter) and call center products like (Genesys, Cisco). <br>
+                    Is a chat bot platform that help with createing intelligent chat bots that supports lots of AI platforms like
+                    <a class="text-grey-darkest" href="https://www.luis.ai/" target="_blank" rel="noopener noreferrer">LUIS</a>,
+                    <a class="text-grey-darkest" href="https://wit.ai" target="__blank">Wit</a>. <br>
+                    Can be integrated with chat platforms like Messenger, WhatsApp and call center products like
+                        <a href="https://www.genesys.com/" target="_blank" class="text-grey-darkest">Genesys</a>,
+                        <a href="https://www.cisco.com/c/en/us/products/contact-center/index.html" target="_blank" class="text-grey-darkest">Cisco</a>.<br>
                     <small>built in a microservice structure using GO && NodeJS</small>
                 </li>
                 <br>
