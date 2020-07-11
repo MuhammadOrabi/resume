@@ -18,7 +18,7 @@
                         <a href="https://botter.live" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Botter</a>
                     </div>
                     Is a chat bot platform that help with createing intelligent chat bots that supports lots of AI platforms like LUIS, WIT <br>
-                    Can be integrated with Messenger, WhatsApp, Twitter and Genesys products. <br>
+                    Can be integrated with chat platforms like (Messenger, WhatsApp, Twitter) and call center products like (Genesys, Cisco). <br>
                     <small>built in a microservice structure using GO && NodeJS</small>
                 </li>
                 <br>
