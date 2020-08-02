@@ -44,9 +44,6 @@
                     <div class="text-grey-darkest text-base leading-normal mt-2">
                         [<a href="https://github.com/MuhammadOrabi/ruby-elasticsearch-go" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a>]
                     </div>
-                    <div class="text-grey-darkest text-base leading-normal mt-2">
-                        [<a href="https://github.com/MuhammadOrabi/ruby-elasticsearch-go" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a>]
-                    </div>
                 </li>
             </ul>
         </p>
