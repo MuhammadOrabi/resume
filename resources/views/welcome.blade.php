@@ -41,10 +41,11 @@
             </a>
         </div>
         <h1 class="text-2xl font-extrabold text-black mb-4">Who am I?</h1>
-        I'm a very passionate developer, <br>
+        Well, I'm kinda a geek, my life consists of family, building tech, watching series and music.
+        {{-- I'm a very passionate developer, <br>
         i have been always eager to learn about Computer Science, i have a debugger mindset. <br>
         Outako Forever XD<br>
-        Love Classic, Jazz and country music.<br>
+        Love Classic, Jazz and country music.<br> --}}
     </p>
 </div>
 @endsection
