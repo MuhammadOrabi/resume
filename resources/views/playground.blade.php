@@ -12,7 +12,7 @@
             Digital Assistant
         </p>
         <p class="text-grey-darkest text-base leading-normal mt-1">
-            simple Appointment web application between doctors and patients using nodejs, python and
+            Extreme Solution Backend Challenge, Simple Appointment web application between doctors and patients using nodejs, python and
             golang for the back-end. Patient can view all the available time slots of a doctor so he would be able to make
             an appointment.
             <ul>
@@ -38,9 +38,12 @@
             Chat Module
         </p>
         <p class="text-grey-darkest text-base leading-normal mt-1">
-            simple chat module for testing out ruby with elasticsearch and simple go command line to interact with the chat module powered by cobra.
+            Instabug Back End Challenge, Simple chat module for testing out ruby with elasticsearch and simple go command line to interact with the chat module powered by cobra.
             <ul>
                 <li>
+                    <div class="text-grey-darkest text-base leading-normal mt-2">
+                        [<a href="https://github.com/MuhammadOrabi/ruby-elasticsearch-go" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a>]
+                    </div>
                     <div class="text-grey-darkest text-base leading-normal mt-2">
                         [<a href="https://github.com/MuhammadOrabi/ruby-elasticsearch-go" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a>]
                     </div>
@@ -48,6 +51,7 @@
             </ul>
         </p>
     </div>
+
 </div>
 
 @endsection
