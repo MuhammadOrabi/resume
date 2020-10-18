@@ -39,11 +39,13 @@
                     <i class="far fa-envelope"></i>
                 </span>
             </a>
-            <a href="mailto:muhammad@orabi.me" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
-                <span  style="font-size: 2em">
-                    <i class="far fa-envelope"></i>
-                </span>
-            </a>
+            @if(is_resource(@fsockopen('mail.orabi.me', '25')))
+                <a href="mailto:muhammad@orabi.me" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
+                    <span  style="font-size: 2em">
+                        <i class="far fa-envelope"></i>
+                    </span>
+                </a>
+            @endif
         </div>
         <h1 class="text-2xl font-extrabold text-black mb-4">Who am I?</h1>
         Well, I'm kinda a geek, my life consists of family, building tech, watching series and music.
