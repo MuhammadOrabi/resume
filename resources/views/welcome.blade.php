@@ -39,7 +39,7 @@
                     <i class="far fa-envelope"></i>
                 </span>
             </a>
-            @if(is_resource(@fsockopen('mail.orabi.me', '25')))
+            @if(is_resource(@fsockopen('mail.orabi.me', '25', $errno = 0, $errstr = '', 1)))
                 <a href="mailto:muhammad@orabi.me" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
                     <span  style="font-size: 2em">
                         <i class="far fa-envelope"></i>
