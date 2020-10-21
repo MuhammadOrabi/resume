@@ -1,5 +1,6 @@
 <template>
-     <div>
+    <div>
+        <div>
         <p class="text-lg text-black font-bold no-underline">
             Digital Assistant
         </p>
@@ -41,13 +42,14 @@
             </ul>
         </p>
     </div>
+    </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
 export default {
-  name: 'Playground',
-  components: {}
-}
+  name: "Playground",
+  components: {},
+};
 </script>
