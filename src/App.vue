@@ -23,27 +23,47 @@
         >
           <router-link
             to="/employment"
-            :class="currentPage.includes('employment') ? 'block text-black font-bold no-underline' : 'text-grey-dark font-semibold no-underline hover:text-black'"
+            :class="
+              currentPage.includes('employment')
+                ? 'block text-black font-bold no-underline'
+                : 'text-grey-dark font-semibold no-underline hover:text-black'
+            "
             >Employment</router-link
           >
           <router-link
             to="/education"
-            :class="currentPage.includes('education') ? 'block text-black font-bold no-underline' : 'text-grey-dark font-semibold no-underline hover:text-black'"
+            :class="
+              currentPage.includes('education')
+                ? 'block text-black font-bold no-underline'
+                : 'text-grey-dark font-semibold no-underline hover:text-black'
+            "
             >Education</router-link
           >
           <router-link
             to="/skills"
-            :class="currentPage.includes('skills') ? 'block text-black font-bold no-underline' : 'text-grey-dark font-semibold no-underline hover:text-black'"
+            :class="
+              currentPage.includes('skills')
+                ? 'block text-black font-bold no-underline'
+                : 'text-grey-dark font-semibold no-underline hover:text-black'
+            "
             >Skills</router-link
           >
           <router-link
             to="/projects"
-            :class="currentPage.includes('projects') ? 'block text-black font-bold no-underline' : 'text-grey-dark font-semibold no-underline hover:text-black'"
+            :class="
+              currentPage.includes('projects')
+                ? 'block text-black font-bold no-underline'
+                : 'text-grey-dark font-semibold no-underline hover:text-black'
+            "
             >Projects</router-link
           >
           <router-link
             to="/playground"
-            :class="currentPage.includes('playground') ? 'block text-black font-bold no-underline' : 'text-grey-dark font-semibold no-underline hover:text-black'"
+            :class="
+              currentPage.includes('playground')
+                ? 'block text-black font-bold no-underline'
+                : 'text-grey-dark font-semibold no-underline hover:text-black'
+            "
             >Playground</router-link
           >
         </div>
@@ -83,7 +103,53 @@
   >
     <div
       class="spaced-y-8 overflow-y-auto pt-6 pb-8 px-12 max-h-full overflow-y-auto"
-    ></div>
+    >
+      <router-link
+        to="/employment"
+        :class="
+          currentPage.includes('employment')
+            ? 'block text-black font-bold no-underline'
+            : 'text-grey-dark font-semibold no-underline hover:text-black'
+        "
+        >Employment</router-link
+      >
+      <router-link
+        to="/education"
+        :class="
+          currentPage.includes('education')
+            ? 'block text-black font-bold no-underline'
+            : 'text-grey-dark font-semibold no-underline hover:text-black'
+        "
+        >Education</router-link
+      >
+      <router-link
+        to="/skills"
+        :class="
+          currentPage.includes('skills')
+            ? 'block text-black font-bold no-underline'
+            : 'text-grey-dark font-semibold no-underline hover:text-black'
+        "
+        >Skills</router-link
+      >
+      <router-link
+        to="/projects"
+        :class="
+          currentPage.includes('projects')
+            ? 'block text-black font-bold no-underline'
+            : 'text-grey-dark font-semibold no-underline hover:text-black'
+        "
+        >Projects</router-link
+      >
+      <router-link
+        to="/playground"
+        :class="
+          currentPage.includes('playground')
+            ? 'block text-black font-bold no-underline'
+            : 'text-grey-dark font-semibold no-underline hover:text-black'
+        "
+        >Playground</router-link
+      >
+    </div>
   </div>
   <div class="lg:pl-32 mt-12">
     <div class="max-w-md">
@@ -100,9 +166,9 @@ export default {
     };
   },
   computed: {
-      currentPage() {
-          return this.$route.path
-      }
+    currentPage() {
+      return this.$route.path;
+    },
   },
   methods: {
     toggleMenu() {
