@@ -104,29 +104,21 @@
     <div
       class="spaced-y-8 overflow-y-auto pt-6 pb-8 px-12 max-h-full overflow-y-auto"
     >
-      <router-link
-        to="/employment"
-        class="block text-black font-bold no-underline"
-        >Employment</router-link
-      >
-      <router-link
-        to="/education"
-        class="block text-black font-bold no-underline"
-        >Education</router-link
-      >
-      <router-link to="/skills" class="block text-black font-bold no-underline"
-        >Skills</router-link
-      >
-      <router-link
-        to="/projects"
-        class="block text-black font-bold no-underline"
-        >Projects</router-link
-      >
-      <router-link
-        to="/playground"
-        class="block text-black font-bold no-underline"
-        >Playground</router-link
-      >
+      <router-link to="/employment" class="block text-black font-bold no-underline">
+        <span @click="menuOpen=false">Employment</span>
+      </router-link>
+      <router-link to="/education" class="block text-black font-bold no-underline">
+        <span @click="menuOpen=false">Education</span>
+      </router-link>
+      <router-link to="/skills" class="block text-black font-bold no-underline">
+        <span @click="menuOpen=false">Skills</span>
+      </router-link>
+      <router-link to="/projects" class="block text-black font-bold no-underline">
+        <span @click="menuOpen=false">Projects</span>
+      </router-link>
+      <router-link to="/playground" class="block text-black font-bold no-underline">
+        <span @click="menuOpen=false">Playground</span>
+      </router-link>
     </div>
   </div>
   <div class="lg:pl-32 mt-12">
