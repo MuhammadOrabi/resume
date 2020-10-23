@@ -105,19 +105,19 @@
       class="spaced-y-8 overflow-y-auto pt-6 pb-8 px-12 max-h-full overflow-y-auto"
     >
       <router-link to="/employment" class="block text-black font-bold no-underline">
-        <span @click="menuOpen=false">Employment</span>
+        <span @click="toggleMenu">Employment</span>
       </router-link>
       <router-link to="/education" class="block text-black font-bold no-underline">
-        <span @click="menuOpen=false">Education</span>
+        <span @click="toggleMenu">Education</span>
       </router-link>
       <router-link to="/skills" class="block text-black font-bold no-underline">
-        <span @click="menuOpen=false">Skills</span>
+        <span @click="toggleMenu">Skills</span>
       </router-link>
       <router-link to="/projects" class="block text-black font-bold no-underline">
-        <span @click="menuOpen=false">Projects</span>
+        <span @click="toggleMenu">Projects</span>
       </router-link>
       <router-link to="/playground" class="block text-black font-bold no-underline">
-        <span @click="menuOpen=false">Playground</span>
+        <span @click="toggleMenu">Playground</span>
       </router-link>
     </div>
   </div>
