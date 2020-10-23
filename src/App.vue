@@ -106,47 +106,25 @@
     >
       <router-link
         to="/employment"
-        :class="
-          currentPage.includes('employment')
-            ? 'block text-black font-bold no-underline'
-            : 'text-grey-dark font-semibold no-underline hover:text-black'
-        "
+        class="block text-black font-bold no-underline"
         >Employment</router-link
       >
       <router-link
         to="/education"
-        :class="
-          currentPage.includes('education')
-            ? 'block text-black font-bold no-underline'
-            : 'text-grey-dark font-semibold no-underline hover:text-black'
-        "
+        class="block text-black font-bold no-underline"
         >Education</router-link
       >
-      <router-link
-        to="/skills"
-        :class="
-          currentPage.includes('skills')
-            ? 'block text-black font-bold no-underline'
-            : 'text-grey-dark font-semibold no-underline hover:text-black'
-        "
+      <router-link to="/skills" class="block text-black font-bold no-underline"
         >Skills</router-link
       >
       <router-link
         to="/projects"
-        :class="
-          currentPage.includes('projects')
-            ? 'block text-black font-bold no-underline'
-            : 'text-grey-dark font-semibold no-underline hover:text-black'
-        "
+        class="block text-black font-bold no-underline"
         >Projects</router-link
       >
       <router-link
         to="/playground"
-        :class="
-          currentPage.includes('playground')
-            ? 'block text-black font-bold no-underline'
-            : 'text-grey-dark font-semibold no-underline hover:text-black'
-        "
+        class="block text-black font-bold no-underline"
         >Playground</router-link
       >
     </div>
