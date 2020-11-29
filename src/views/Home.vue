@@ -31,11 +31,6 @@
                         <i class="fas fa-mobile"></i>
                     </span>
                 </a>
-                <a href="mailto:orabi.dev@gmail.com" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
-                    <span  style="font-size: 2em">
-                        <i class="far fa-envelope"></i>
-                    </span>
-                </a>
                 <a href="mailto:muhammad@orabi.me" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline mx-auto px-4">
                     <span  style="font-size: 2em">
                         <i class="far fa-envelope"></i>
