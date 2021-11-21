@@ -29,14 +29,6 @@
                 data visualization for the votes.
                 <ul>
                     <li>
-                        PHP, Laravel 5.4, Vue.Js 2.0 , Bootstrap V4
-                        <div class="text-grey-darkest text-base leading-normal mt-2">
-                            [<a href="https://github.com/MuhammadOrabi/voting-app" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo</a> |
-                            <a href="http://vote.orabi.me/" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Live</a>]
-                        </div>
-                    </li>
-                    <br>
-                    <li>
                         Bootstrap V4, Express.js, MongoDB, React.js
                         <div class="text-grey-darkest text-base leading-normal mt-2">
                             [<a href="https://github.com/MuhammadOrabi/voting-app-react" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Github Repo (legacy code)</a>]
