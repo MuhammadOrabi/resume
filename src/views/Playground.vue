@@ -19,8 +19,7 @@
                 <li>
                     Messaging over Message Broker using RabbitMQ
                     <div class="text-grey-darkest text-base leading-normal mt-2">
-                        [<a href="https://gitlab.com/digital-assistant/app" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Gitlab Repo</a> |
-                        <a href="https://digital-assistant.orabi.me/" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Live</a>]
+                        [<a href="https://gitlab.com/digital-assistant/app" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Gitlab Repo</a>] 
                     </div>
                 </li>
             </ul>
