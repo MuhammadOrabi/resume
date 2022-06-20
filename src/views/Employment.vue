@@ -24,7 +24,6 @@
                             </li>
 
                         </ul>
-                        <small>built in a microservice structure using GO && NodeJS</small>
                     </li>
                     <br>
                     <li>
