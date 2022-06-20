@@ -25,16 +25,6 @@
                 </ul>
             </p>
         </div>
-        <div>
-            <p class="text-lg text-black font-bold">
-                Good Technical Understanding (solid foundation):
-            </p>
-            <p class="text-grey-darkest text-base leading-normal mt-1">
-                <ul>
-                    <li>Data Structure, OOP, Problem Solving, Design Pattern, Solid principles</li>
-                </ul>
-            </p>
-        </div>
     </div>
 </template>
 

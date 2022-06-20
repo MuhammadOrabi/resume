@@ -2,7 +2,7 @@
     <div class="mt-12 spaced-y-10">
         <div>
             <a href="https://www.bluecrunch.com/" class="text-lg text-black font-bold no-underline hover:underline">
-                Software Engineer at BlueCrunch <small>[November 2018 - till now]</small>
+                Software Engineer at BlueCrunch <small>[November 2018 - Present]</small>
             </a>
             <p class="text-grey-darkest text-base leading-normal mt-1">
                 <ul>
@@ -10,32 +10,37 @@
                         <div class="text-grey-darkest text-base leading-normal mt-2">
                             <a href="https://botter.ai" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Botter</a>
                         </div>
-                        Is a chat bot platform that help with createing intelligent chat bots that supports lots of AI platforms like
-                        <a class="text-grey-darkest" href="https://www.luis.ai/" target="_blank" rel="noopener noreferrer">LUIS</a>,
-                        <a class="text-grey-darkest" href="https://wit.ai" target="__blank">Wit</a>. <br>
-                        Can be integrated with chat platforms like Messenger, WhatsApp and call center products like
-                            <a href="https://www.genesys.com/" target="_blank" class="text-grey-darkest">Genesys</a>,
-                            <a href="https://www.cisco.com/c/en/us/products/contact-center/index.html" target="_blank" class="text-grey-darkest">Cisco</a>.<br>
+                        BOTTER.ai is a customer experience automation platform, it helps business deliver an enterprise conversational
+                        AI chatbots & VoiceBot with the power of integrated cognitive services and NLP
+                        <ul>
+                            <li>Built Restful API’s for flow builder dashboard</li>
+                            <li>Built Restful API’s used in the chatbot flow that integrate with the clients SAP applications.</li>
+                            <li>
+                                Built an escalation service that contains multiple integrations between the chatbot and the contact center management systems like genesys (cloud, pureconnect) or cisco (ECE, UCCX, UCCE)
+                            </li>
+                            <li>Built the chatbot core engine for botter v1</li>
+                            <li>
+                                Deploying and maintaing the product on primis in clients environment, (MOI, Housing Bank, Bank aljazira, Bupa, Mednet, Mansour, Hamat, MODON)
+                            </li>
+
+                        </ul>
                         <small>built in a microservice structure using GO && NodeJS</small>
                     </li>
                     <br>
                     <li>
-                        CPA
-                        <p>
-                            Is a fully automated and highly optimized CPA. <br>
-                            It takes in transactions, categorization, and context from previous years to automate your books & taxes moving forward. <br>
-                            <small>built in a microservice structure, and we used gRPC mainly</small>
-                        </p>
+                        Built Restful API’s using Microservices architecture for autostore websites like Mansour, Toyota and Autostore
                     </li>
                     <br>
                     <li>
-                        Building APIs for mobile applications && web platforms.
-                        (i.e)
-                        <ul>
-                            <li>Feed</li>
-                            <li>Toyota</li>
-                            <li>Loreal (medical)</li>
-                        </ul>
+                        Built Restful API’s for the mobile application management and CMS like loreal, benfix , Souk Okaz, BARQ and ValU
+                    </li>
+                    <br>
+                    <li>
+                        Integrated with payment gateways like Stripe, PayPal and Payfort
+                    </li>
+                    <br>
+                    <li>
+                        Designed a lot of projects database and implemented RESTful API for mobile applications and web platforms
                     </li>
                 </ul>
             </p>
