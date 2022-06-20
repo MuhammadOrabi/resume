@@ -8,7 +8,7 @@
                 <ul>
                     <li>
                         <div class="text-grey-darkest text-base leading-normal mt-2">
-                            <a href="https://botter.ai" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">Botter</a>
+                            <a href="https://botter.ai" target="__blank" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">BOTTER</a>
                         </div>
                         BOTTER.ai is a customer experience automation platform, it helps business deliver an enterprise conversational
                         AI chatbots & VoiceBot with the power of integrated cognitive services and NLP
