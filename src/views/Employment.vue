@@ -1,8 +1,23 @@
 <template>
     <div class="mt-12 spaced-y-10">
         <div>
+            <a href="https://www.haader.com/" class="text-lg text-black font-bold no-underline hover:underline">
+                Software Engineer at Haader <small>[September 2022 - Present]</small>
+            </a>
+            Haader is a Food, groceries & more, delivered quickly to your doorstep. Contactless delivery available. 
+            Fast and easy food & grocery delivery from the best restaurants and supermarkets near you. Order & Track Your Food.
+            Fast & Easy Delivery. Simple Food Ordering
+            <p class="text-grey-darkest text-base leading-normal mt-1">
+                <ul>
+                    <li>Design parts in the application</li><br>
+                    <li>Building Restfull APIs for mobile and multiple dashboards</li><br>
+                    <li>Managed and maintained Servers</li><br>
+                </ul>
+            </p>
+        </div>
+        <div>
             <a href="https://www.bluecrunch.com/" class="text-lg text-black font-bold no-underline hover:underline">
-                Software Engineer at BlueCrunch <small>[November 2018 - Present]</small>
+                Software Engineer at BlueCrunch <small>[November 2018 - August 2022]</small>
             </a>
             <p class="text-grey-darkest text-base leading-normal mt-1">
                 <ul>
