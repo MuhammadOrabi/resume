@@ -3,7 +3,7 @@
         <div>
             <a href="https://www.haader.com/" class="text-lg text-black font-bold no-underline hover:underline">
                 Software Engineer at Haader <small>[September 2022 - Present]</small>
-            </a>
+            </a><br>
             Haader is a Food, groceries & more, delivered quickly to your doorstep. Contactless delivery available. 
             Fast and easy food & grocery delivery from the best restaurants and supermarkets near you. Order & Track Your Food.
             Fast & Easy Delivery. Simple Food Ordering
