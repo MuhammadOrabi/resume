@@ -38,10 +38,12 @@
                 </a>
             </div>
             <h1 class="text-2xl font-extrabold text-black mb-4">Who am I?</h1>
-            Well, I'm kinda a geek, my life consists of family, building tech, watching series and music.
+            <!-- Well, I'm kinda a geek, my life consists of family, building tech, watching series and music. -->
             <!-- I'm a very passionate developer, <br>
             i have been always eager to learn about Computer Science, i have a debugger mindset. <br>
             Outako Forever XD<br>
             Love Classic, Jazz and country music.<br> -->
+            <!-- Empowering businesses and solving complex problems with innovative technology, I am a skilled software engineer with a drive to create seamless and impactful software experiences. -->
+            Turning vision into reality through code, I am a creative and motivated software engineer who constantly strives to build elegant and efficient solutions that make a difference.
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="mt-12 spaced-y-10">
         <div>
-            <a href="https://www.haader.com/" class="text-lg text-black font-bold no-underline hover:underline">
+            <a href="https://www.haader.com/" class="text-lg text-black font-bold no-underline hover:underline" target="__blank">
                 Software Engineer at Haader <small>[September 2022 - Present]</small>
             </a><br>
             Haader is a Food, groceries & more, delivered quickly to your doorstep. Contactless delivery available. 
@@ -16,7 +16,7 @@
             </p>
         </div>
         <div>
-            <a href="https://www.bluecrunch.com/" class="text-lg text-black font-bold no-underline hover:underline">
+            <a href="https://www.bluecrunch.com/" class="text-lg text-black font-bold no-underline hover:underline" target="__blank">
                 Software Engineer at BlueCrunch <small>[November 2018 - August 2022]</small>
             </a>
             <p class="text-grey-darkest text-base leading-normal mt-1">
@@ -61,7 +61,7 @@
         </div>
 
         <div>
-            <a href="https://www.quadrantme.com/" class="text-lg text-black font-bold no-underline hover:underline">
+            <a class="text-lg text-black font-bold no-underline hover:underline">
                 Software Engineer at Quadrant ME <small>[March 2018 - October 2018]</small>
             </a>
             <p class="text-grey-darkest text-base leading-normal mt-1">
@@ -76,12 +76,12 @@
         </div>
 
         <div>
-            <a href="https://bassmat.com/" class="text-lg text-black font-bold no-underline hover:underline">
+            <a href="https://bassmat.com/" class="text-lg text-black font-bold no-underline hover:underline" target="__blank">
                 Backend Developer at Bassmat <small>[March 2017]</small>
             </a>
             <p class="text-grey-darkest text-base leading-normal mt-1">
                 <ul>
-                    <li>Building APIs</li>
+                    <li>Building APIs. That integrate with twitter services</li>
                 </ul>
             </p>
         </div>
