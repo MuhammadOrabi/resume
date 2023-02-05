@@ -44,7 +44,8 @@
             Outako Forever XD<br>
             Love Classic, Jazz and country music.<br> -->
             <!-- Empowering businesses and solving complex problems with innovative technology, I am a skilled software engineer with a drive to create seamless and impactful software experiences. -->
-            Turning vision into reality through code, I am a creative and motivated software engineer who constantly strives to build elegant and efficient solutions that make a difference.
+            <!-- Turning vision into reality through code, I am a creative and motivated software engineer who constantly strives to build elegant and efficient solutions that make a difference. -->
+            I am a highly skilled software engineer with over 5 years of experience in the field. I have a strong background in developing and maintaining software applications, and have expertise in various programming languages and technologies. I am driven by a passion for solving complex problems and creating innovative solutions. In my current role, I have demonstrated my ability to work collaboratively with cross-functional teams and to consistently deliver high-quality software on time and within budget. I am eager to continue my career growth and to take on new challenges in the industry.
     </div>
 </template>
 
