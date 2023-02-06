@@ -141,11 +141,20 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
       menuOpen: false,
     };
+  },
+  watch: {
+    $route (){
+      let host = window.location.hostname;
+      let path = window.location.pathname;
+      axios.get(`https://tracker.orabi.me/track?site=${host}&path=${path}`)
+    }
   },
   computed: {
     currentPage() {
