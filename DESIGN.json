@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-02T00:00:00Z",
+  "title": "Design System: Muhammad Orabi Resume",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Signal Blue",
+        "canonical": "oklch(0.63 0.15 248)",
+        "tonalRamp": ["#0d1b2a", "#12314f", "#1a4a78", "#2363a1", "#3490dc", "#67ace6", "#9ec9ef", "#dceef8"]
+      },
+      "primary-strong": {
+        "role": "primary",
+        "displayName": "Deep Signal Blue",
+        "canonical": "oklch(0.50 0.13 248)",
+        "tonalRamp": ["#0a1522", "#10263e", "#16385b", "#1d4f80", "#1d68a7", "#4988bf", "#7fb1d5", "#c8dfef"]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Paper Mist",
+        "canonical": "oklch(0.98 0.01 250)",
+        "tonalRamp": ["#1a1d21", "#2a2f35", "#3c434c", "#55616d", "#7a8794", "#a9b3bd", "#d6dbe0", "#f8fafc"]
+      },
+      "neutral-text": {
+        "role": "neutral",
+        "displayName": "Graphite Text",
+        "canonical": "oklch(0.28 0.01 250)",
+        "tonalRamp": ["#0f1114", "#16191d", "#1d2127", "#212529", "#3b434d", "#606c79", "#97a0aa", "#d2d8de"]
+      },
+      "neutral-muted": {
+        "role": "neutral",
+        "displayName": "Steel Muted",
+        "canonical": "oklch(0.54 0.01 250)",
+        "tonalRamp": ["#15181c", "#242a31", "#343d47", "#4d5967", "#6c757d", "#8d959c", "#b3b8bd", "#e1e4e7"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "High-signal identity and section openers."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Primary section hierarchy for recruiter scan speed."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Subsection labels and role emphasis."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Core content readability and technical explanation."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Metadata and compact annotations."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift-1",
+        "value": "0 1px 3px rgba(0, 0, 0, 0.08)",
+        "purpose": "Subtle hover lift for interactive surfaces."
+      },
+      {
+        "name": "lift-2",
+        "value": "0 8px 24px rgba(0, 0, 0, 0.1)",
+        "purpose": "Temporary emphasis for focused surfaces."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-standard",
+        "value": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        "purpose": "Default UI state transitions."
+      },
+      {
+        "name": "duration-fast",
+        "value": "160ms",
+        "purpose": "Hover and focus response timing."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "576px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "992px"
+      },
+      {
+        "name": "xl",
+        "value": "1200px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary call-to-action for key actions and navigation emphasis.",
+      "html": "<button class=\"ds-btn-primary\">Get In Touch</button>",
+      "css": ".ds-btn-primary { background: #3490dc; color: #ffffff; padding: 8px 16px; border: none; border-radius: 4px; font-family: Nunito, sans-serif; font-size: 0.9rem; font-weight: 600; line-height: 1.4; transition: background 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94); cursor: pointer; } .ds-btn-primary:hover { background: #1d68a7; transform: translateY(-1px); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); } .ds-btn-primary:focus-visible { outline: 2px solid #3490dc; outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Low-emphasis action for secondary controls.",
+      "html": "<button class=\"ds-btn-ghost\">View Projects</button>",
+      "css": ".ds-btn-ghost { background: transparent; color: #212529; padding: 8px 16px; border: 1px solid #d6dbe0; border-radius: 4px; font-family: Nunito, sans-serif; font-size: 0.9rem; font-weight: 600; transition: background 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), border-color 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), color 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94); cursor: pointer; } .ds-btn-ghost:hover { background: #f8fafc; border-color: #3490dc; color: #1d68a7; } .ds-btn-ghost:focus-visible { outline: 2px solid #3490dc; outline-offset: 2px; }"
+    },
+    {
+      "name": "Tag Chip",
+      "kind": "chip",
+      "refersTo": "card-default",
+      "description": "Compact skill or technology label.",
+      "html": "<span class=\"ds-chip\">Node.js</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 999px; border: 1px solid #d6dbe0; background: #ffffff; color: #343a40; font-family: Nunito, sans-serif; font-size: 0.75rem; font-weight: 600; line-height: 1.4; }"
+    },
+    {
+      "name": "Resume Card",
+      "kind": "card",
+      "refersTo": "card-default",
+      "description": "Structured content grouping for projects and experience highlights.",
+      "html": "<article class=\"ds-card\"><h3 class=\"ds-card-title\">Senior Backend Engineer</h3><p class=\"ds-card-body\">Built scalable APIs and improved release confidence with CI pipelines.</p></article>",
+      "css": ".ds-card { background: #ffffff; color: #212529; border: 1px solid #e1e4e7; border-radius: 8px; padding: 16px; transition: box-shadow 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), border-color 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94); } .ds-card:hover { border-color: #c8dfef; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); } .ds-card-title { margin: 0 0 8px 0; font-family: Nunito, sans-serif; font-size: 1.125rem; font-weight: 700; line-height: 1.3; color: #343a40; } .ds-card-body { margin: 0; font-family: Nunito, sans-serif; font-size: 0.9rem; font-weight: 400; line-height: 1.6; color: #212529; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input-default",
+      "description": "Default text field styling for contact and filtering interactions.",
+      "html": "<label class=\"ds-field\">Email<input class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\" /></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; font-family: Nunito, sans-serif; font-size: 0.75rem; font-weight: 600; color: #343a40; } .ds-input { background: #ffffff; color: #212529; border: 1px solid #d6dbe0; border-radius: 4px; padding: 8px 12px; font-family: Nunito, sans-serif; font-size: 0.9rem; line-height: 1.6; transition: border-color 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94); } .ds-input:focus { border-color: #3490dc; box-shadow: 0 0 0 3px rgba(52, 144, 220, 0.2); outline: none; } .ds-input::placeholder { color: #8d959c; }"
+    },
+    {
+      "name": "Top Navigation Link",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "Navigation item for section jumps or routing links.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link ds-active\" href=\"#\">Home</a><a class=\"ds-nav-link\" href=\"#\">Projects</a><a class=\"ds-nav-link\" href=\"#\">Skills</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 12px; align-items: center; } .ds-nav-link { text-decoration: none; color: #6c757d; font-family: Nunito, sans-serif; font-size: 0.9rem; font-weight: 600; padding: 6px 8px; border-radius: 4px; transition: color 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background 160ms cubic-bezier(0.25, 0.46, 0.45, 0.94); } .ds-nav-link:hover { color: #1d68a7; background: #f8fafc; } .ds-nav-link:focus-visible { outline: 2px solid #3490dc; outline-offset: 2px; } .ds-nav-link.ds-active { color: #212529; background: #e9f2fb; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Engineer's Console",
+    "overview": "This system presents a coding-first professional identity with practical, recruiter-speed clarity. It prioritizes technical proof over decorative storytelling, keeps hierarchy explicit, and uses accent color as a navigational signal rather than visual noise.",
+    "keyCharacteristics": [
+      "Proof-first structure over personality-first layout",
+      "Fast, scannable information hierarchy",
+      "Technical confidence with restrained effects",
+      "Professional clarity across screen sizes"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Use the accent color primarily for interaction and emphasis, not as large decorative fills.",
+        "section": "colors"
+      },
+      {
+        "name": "The Recruiter Scan Rule",
+        "body": "Hierarchy should communicate priority within seconds via scale and weight, not ornament.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Resting surfaces remain flat and crisp. Elevation appears only in response to state.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep content proof-oriented with skills, projects, and outcomes visible early.",
+      "Do preserve strong text contrast and consistent type rhythm.",
+      "Do keep interaction states clear for keyboard and mouse users."
+    ],
+    "donts": [
+      "Don't use generic AI-generated portfolio aesthetics.",
+      "Don't use over-polished agency-like marketing language.",
+      "Don't add visual noise that hides substance.",
+      "Don't add playful gimmicks that make the profile feel junior or unfocused.",
+      "Don't use gradient text or glassmorphism as default styling."
+    ]
+  }
+}

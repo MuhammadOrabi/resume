@@ -73,7 +73,13 @@ export default function App() {
           </div>
         </div>
         <div className="block md:hidden">
-          <button className="block" onClick={() => setMenuOpen((v) => !v)}>
+          <button
+            className="block menu-toggle"
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-nav"
+            aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          >
             <svg
               style={{ display: menuOpen ? 'none' : 'block' }}
               className="block text-black h-6 w-6"
@@ -96,7 +102,11 @@ export default function App() {
         </div>
       </div>
 
-      <div style={{ display: menuOpen ? 'block' : 'none' }} className="md:hidden z-10 bg-white fixed pin pt-24">
+      <div
+        id="mobile-nav"
+        style={{ display: menuOpen ? 'block' : 'none' }}
+        className="md:hidden z-10 bg-white fixed pin pt-24"
+      >
         <div className="spaced-y-8 overflow-y-auto pt-6 pb-8 px-12 max-h-full overflow-y-auto">
           <NavItem to="/" mobile onClick={() => setMenuOpen(false)}>Bio & Contacts</NavItem>
           <NavItem to="/employment" mobile onClick={() => setMenuOpen(false)}>Employment</NavItem>
@@ -108,7 +118,7 @@ export default function App() {
       </div>
 
       <div className="lg:pl-32 mt-12">
-        <div className="max-w-md">
+        <div key={location.pathname} className="section-shell route-stage">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/employment" element={<Employment />} />

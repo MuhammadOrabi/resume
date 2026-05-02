@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <div className="mt-12 spaced-y-10">
       <div>
-        <p className="text-lg text-black font-bold">Technical Skills and work knowledge:</p>
+        <p className="text-lg text-black font-bold">Technical Skills and Work Knowledge:</p>
         <div className="text-grey-darkest text-base leading-normal mt-1">
           <ul>
             <li>TypeScript, JavaScript (ES6+), PHP, Go</li>
@@ -10,7 +10,7 @@ export default function Skills() {
             <li>PostgreSQL, MongoDB, Redis, Elasticsearch</li>
             <li>Vue.js, React, Tailwind CSS, Sass</li>
             <li>System design, microservices architecture, performance optimization</li>
-            {/* <li>Unit testing, integration testing, end-to-end testing</li> */}
+            <li>Unit testing, integration testing, end-to-end testing</li>
           </ul>
         </div>
       </div>
