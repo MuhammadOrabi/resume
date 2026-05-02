@@ -1,16 +1,32 @@
 .section-shell {
   max-width: 46rem;
+  --space-1: clamp(0.65rem, 0.58rem + 0.22vw, 0.8rem);
+  --space-2: clamp(0.95rem, 0.82rem + 0.35vw, 1.2rem);
+  --space-3: clamp(1.25rem, 1.06rem + 0.55vw, 1.65rem);
+  --space-4: clamp(1.8rem, 1.45rem + 0.95vw, 2.6rem);
+  --space-5: clamp(2.4rem, 1.95rem + 1.2vw, 3.4rem);
 }
 
 .route-stage {
   animation: route-enter 520ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.page-stack {
+  margin-top: var(--space-4);
+  display: grid;
+  gap: var(--space-4);
+}
+
+.section-block {
+  display: grid;
+  gap: var(--space-2);
+}
+
 .surface-card {
   border: 1px solid oklch(0.88 0.01 250);
   background: oklch(0.99 0.01 250);
   border-radius: 0.75rem;
-  padding: 1rem;
+  padding: var(--space-2);
   transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 220ms cubic-bezier(0.22, 1, 0.36, 1);
   animation: rise-in 460ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
@@ -28,16 +44,21 @@
   max-width: 70ch;
 }
 
+.content-flow {
+  display: grid;
+  gap: var(--space-1);
+}
+
 .quick-facts {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 0.75rem;
+  gap: var(--space-1);
 }
 
 .quick-facts .fact {
   border: 1px solid oklch(0.9 0.01 250);
   border-radius: 0.5rem;
-  padding: 0.75rem;
+  padding: var(--space-1);
   background: oklch(0.985 0.008 250);
   transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1), border-color 180ms cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -75,6 +96,13 @@ a:focus-visible {
 
 .project-meta {
   color: oklch(0.43 0.01 250);
+}
+
+.inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
 }
 
 /* Orchestrated but restrained reveal sequence */

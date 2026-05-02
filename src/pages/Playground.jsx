@@ -1,9 +1,9 @@
 export default function Playground() {
   return (
-    <div className="mt-12 spaced-y-10">
+    <div className="page-stack">
       <div className="surface-card">
         <p className="text-lg text-black font-bold no-underline">Digital Assistant</p>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           Extreme Solution backend challenge, a simple appointment platform connecting doctors and patients.
           The backend was built with Node.js, Python, and Go. Patients can browse available doctor time slots and book appointments.
           <ul>
@@ -24,7 +24,7 @@ export default function Playground() {
       </div>
       <div className="surface-card">
         <p className="text-lg text-black font-bold no-underline">Chat Module</p>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           Instabug backend challenge, a simple chat module built to explore Ruby with Elasticsearch,
           plus a lightweight Go CLI client powered by Cobra.
           <ul>

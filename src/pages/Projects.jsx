@@ -1,9 +1,9 @@
 export default function Projects() {
   return (
-    <div className="mt-12 spaced-y-10">
+    <div className="page-stack">
       <div className="surface-card">
         <p className="text-lg text-black font-bold no-underline">Create Website</p>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           A website and web application builder inspired by platforms like WordPress and Wix, with additional AI-assisted capabilities.
           <ul>
             <li>
@@ -18,7 +18,7 @@ export default function Projects() {
       </div>
       <div className="surface-card">
         <p className="text-lg text-black font-bold no-underline">Voting App</p>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           A polling platform where users can register, create polls, vote, and review vote data through visual summaries.
           <ul>
             <li>

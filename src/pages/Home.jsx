@@ -4,8 +4,8 @@ export default function Home() {
   ).toFixed(0)
 
   return (
-    <div className="text-lg text-grey-darkest leading-normal spaced-y-6">
-      <div className="surface-card spaced-y-6">
+    <div className="page-stack text-lg text-grey-darkest leading-normal">
+      <div className="surface-card section-block">
         <div>
           <h1 className="text-2xl font-extrabold text-black mb-2 hero-title">Software Engineer, Backend-First</h1>
           <p className="text-base leading-normal hero-lead">
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="fact">
             <p className="font-bold text-black">Core stack</p>
-            <p>Node.js, PHP/Laravel, Go, PostgreSQL, MongoDB, Redis</p>
+            <p>Node.js/NestJS, PHP/Laravel, PostgreSQL, MongoDB, Redis</p>
           </div>
           <div className="fact">
             <p className="font-bold text-black">Delivery focus</p>
@@ -34,14 +34,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-grey-darkest text-base leading-normal mt-2 flex flex-wrap" aria-label="Social and contact links">
-        <a href="https://facebook.com/muhammad.0rabi" target="_blank" rel="noreferrer" className="link-chip mr-2 mb-2" aria-label="Facebook profile"><i className="fab fa-facebook" /></a>
-        <a href="https://twitter.com/Muhammad0rabi" target="_blank" rel="noreferrer" className="link-chip mr-2 mb-2" aria-label="Twitter profile"><i className="fab fa-twitter" /></a>
-        <a href="https://www.linkedin.com/in/muhammadorabi/" target="_blank" rel="noreferrer" className="link-chip mr-2 mb-2" aria-label="LinkedIn profile"><i className="fab fa-linkedin-in" /></a>
-        <a href="https://github.com/MuhammadOrabi/" target="_blank" rel="noreferrer" className="link-chip mr-2 mb-2" aria-label="GitHub profile"><i className="fab fa-github" /></a>
-        <a href="https://api.whatsapp.com/send?phone=201021473271" target="_blank" rel="noreferrer" className="link-chip mr-2 mb-2" aria-label="WhatsApp contact"><i className="fab fa-whatsapp" /></a>
-        <a href="tel:+201021473271" className="link-chip mr-2 mb-2" aria-label="Call phone number"><i className="fas fa-mobile" /></a>
-        <a href="mailto:muhammad@orabi.me" className="link-chip mr-2 mb-2" aria-label="Send email"><i className="far fa-envelope" /></a>
+      <div className="text-grey-darkest text-base leading-normal inline-links" aria-label="Social and contact links">
+        <a href="https://facebook.com/muhammad.0rabi" target="_blank" rel="noreferrer" className="link-chip" aria-label="Facebook profile"><i className="fab fa-facebook" /></a>
+        <a href="https://twitter.com/Muhammad0rabi" target="_blank" rel="noreferrer" className="link-chip" aria-label="Twitter profile"><i className="fab fa-twitter" /></a>
+        <a href="https://www.linkedin.com/in/muhammadorabi/" target="_blank" rel="noreferrer" className="link-chip" aria-label="LinkedIn profile"><i className="fab fa-linkedin-in" /></a>
+        <a href="https://github.com/MuhammadOrabi/" target="_blank" rel="noreferrer" className="link-chip" aria-label="GitHub profile"><i className="fab fa-github" /></a>
+        <a href="https://api.whatsapp.com/send?phone=201021473271" target="_blank" rel="noreferrer" className="link-chip" aria-label="WhatsApp contact"><i className="fab fa-whatsapp" /></a>
+        <a href="tel:+201021473271" className="link-chip" aria-label="Call phone number"><i className="fas fa-mobile" /></a>
+        <a href="mailto:muhammad@orabi.me" className="link-chip" aria-label="Send email"><i className="far fa-envelope" /></a>
       </div>
     </div>
   )

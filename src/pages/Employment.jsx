@@ -1,12 +1,12 @@
 export default function Employment() {
   return (
-    <div className="mt-12 spaced-y-10">
+    <div className="page-stack">
       <div className="surface-card">
         <a href="https://www.haader.com/" className="text-lg text-black font-bold no-underline hover:underline" target="_blank" rel="noreferrer">Software Engineer at Haader <small>[September 2022 - Present]</small></a>
         <p className="text-grey-darkest text-base leading-normal mt-2">
           Haader is a fast-delivery platform for food and groceries.
         </p>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           <ul>
             <li>Designed and implemented key application features.</li>
             <li>Built RESTful APIs for mobile clients and multiple dashboards.</li>
@@ -16,7 +16,7 @@ export default function Employment() {
       </div>
       <div className="surface-card">
         <a href="https://www.bluecrunch.com/" className="text-lg text-black font-bold no-underline hover:underline" target="_blank" rel="noreferrer">Software Engineer at BlueCrunch <small>[November 2018 - August 2022]</small></a>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           <ul>
             <li>
               <div className="text-grey-darkest text-base leading-normal mt-2"><a href="https://botter.ai" target="_blank" rel="noreferrer" className="text-grey-darker hover:text-black text-sm no-underline hover:underline">BOTTER</a></div>
@@ -38,7 +38,7 @@ export default function Employment() {
       </div>
       <div className="surface-card">
         <span className="text-lg text-black font-bold no-underline">Software Engineer at Quadrant ME <small>[March 2018 - October 2018]</small></span>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           <ul>
             <li>Implemented unit and browser tests using PHPUnit and Laravel Dusk.</li>
             <li>Built a Messenger chatbot for qarenhom.com.</li>
@@ -48,7 +48,7 @@ export default function Employment() {
       </div>
       <div className="surface-card">
         <a href="https://bassmat.com/" className="text-lg text-black font-bold no-underline hover:underline" target="_blank" rel="noreferrer">Backend Developer at Bassmat <small>[March 2017]</small></a>
-        <div className="text-grey-darkest text-base leading-normal mt-1">
+        <div className="text-grey-darkest text-base leading-normal content-flow">
           <ul>
             <li>Built backend APIs integrated with Twitter services.</li>
           </ul>
